@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Madrasa Result</title> 
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="theme-indigo">
+  
+  <nav class="navbar col-12 col-md-4 mb-3 mb-md-0" >
+    <div class="school-name">My School</div>
+    <div class="nav-right">
+      
+
+      <ul class="nav-left">
+        <!-- <li><a href="index.html">Home</a></li> -->
+        <li><a href="result.html">Result</a></li>
+      </ul>
+      
+  </nav>
+
+
+
+
+  <div class="container">
+    <h1>MADRASA EXAM RESULT</h1> 
+    <form id="resultForm">
+      <label for="class">Class:</label> 
+      <select id="class" required>
+        <option value="">Select class</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+
+      <label for="regno">Register No:</label> 
+      <input type="text" id="regno" required placeholder="E.g: B1001" />
+
+      <button type="submit">Get Result</button> 
+    </form>
+    <div id="result"></div>
+
+    <div style="text-align: right;">
+      <label for="themeSelect">Theme:</label>
+      <select id="themeSelect">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+        <option value="teal">Teal</option>
+        <option value="rose">Rose</option>
+        <option value="indigo">Indigo</option>
+      </select>
+    </div>
+  </div>
+  <script src="result.js"></script>
+</body>
+</html>

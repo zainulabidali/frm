@@ -1,0 +1,149 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6ecff;
+}
+
+.container {
+  max-width: 600px;
+  background: white;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #312e81;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #0d9488;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f766e;
+}
+
+#result {
+  margin-top: 20px;
+  background-color: #f1f5f9;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.result-title {
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table td, table th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.btn-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-group button {
+  width: auto;
+  margin: 0 10px;
+}
+
+body.theme-light { background: #f9f9f9; color: #333; }
+body.theme-dark { background: #1f2937; color: #f1f5f9; }
+body.theme-teal { background: #e0f2f1; color: #004d40; }
+body.theme-rose { background: #fff1f2; color: #881337; }
+body.theme-indigo { background: #eef2ff; color: #312e81; }
+/* nav bar */
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('https://www.vecteezy.com/vector-art/22216393-islamic-background-with-beautiful-mandala-ornament-vector-template-for-banners-greeting-cards-for-islamic-holidays-eid-al-fitr-ramadhan-eid-al-adha'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  padding: 10px 20px;
+  overflow-x: auto;
+}
+
+.nav-left {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-left li {
+  margin-right: 15px;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.nav-left li:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.school-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(14, 29, 194);
+  /* background: rgba(0, 0, 0, 0.5); */
+  padding: 8px 16px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+.nav-left a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 10px 20px;
+}
+
+.nav-left a:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+}

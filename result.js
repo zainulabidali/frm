@@ -12,7 +12,7 @@ document.getElementById("resultForm")?.addEventListener("submit", function(e) {
   const resultElement = document.getElementById("result");
 
   // Show loading message
-  resultElement.innerHTML = "<p>ഫലം ലോഡ് ചെയ്യുന്നു... ദയവായി കാത്തിരിക്കുക.</p>";
+  resultElement.innerHTML = "<p>ഫലം ലോഡ് ചെയ്യുന്നു. ദയവായി കാത്തിരിക്കുക.</p>";
 
   const apiURL = `https://script.google.com/macros/s/AKfycbxooQRpoD5AG5U20EDGk1My693X9N-Ev2R2yWc5MxZA7IpXqO9Wd7I0nAWvfgqWcFVd/exec?class=${selectedClass}&regno=${regno}`;
 

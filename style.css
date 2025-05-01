@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 350px;
   background: white;
   margin: 50px auto;
   padding: 30px;
@@ -103,7 +103,7 @@ body {
   background-image: url('https://www.vecteezy.com/vector-art/22216393-islamic-background-with-beautiful-mandala-ornament-vector-template-for-banners-greeting-cards-for-islamic-holidays-eid-al-fitr-ramadhan-eid-al-adha'); /* Replace with your image URL */
   background-size: cover;
   background-position: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
   overflow-x: auto;
 }
 
@@ -115,24 +115,25 @@ body {
 }
 
 .nav-left li {
-  margin-right: 15px;
-  padding: 10px 20px;
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 5px;
+  margin-right: 0px;
+  padding: 2px 2px;
+  background: #0d94899d;
+  border-radius: 11px;
   cursor: pointer;
   transition: background 0.3s;
 }
 
+
 .nav-left li:hover {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(244, 242, 242, 0.9);
 }
 
 .school-name {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  color: rgb(14, 29, 194);
+  color: rgb(6, 15, 111);
   /* background: rgba(0, 0, 0, 0.5); */
-  padding: 8px 16px;
+  padding: 8px 8px; 
   border-radius: 5px;
   white-space: nowrap;
 }
@@ -145,5 +146,5 @@ body {
 
 .nav-left a:hover {
   background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 5px;
+  border-radius: 10px;
 }
